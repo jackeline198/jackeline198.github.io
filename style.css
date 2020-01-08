@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(237, 235, 235);
+}
+h1{
+    text-shadow: 2.5px 2.5px rgb(250, 207, 241);
+    font-family: 'Dancing Script', cursive;
+    
+    
+}
+ul{
+    list-style-type: none;
+    background-color: rgb(250, 207, 241);
+    font-size:20px;
+    padding: 7px;
+}
+a{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    color: rgb(64, 64, 64);
+    margin: 125px;
+}
+li{
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: inline;
+    padding: 8px;
+}
+li a:hover{
+    background-color: #678;
+    color: white;
+    
+}
+    
+div{
+    text-align:center;
+    border-style:groove;
+    border-color: rgb(219, 213, 217);
+    box-shadow: 5px 5px 10px rgb(252, 222, 247);
+    width: 500px;
+    height:100px;
+    margin-bottom: 80px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    font-size: 20px;
+    width: 20%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+div.a {
+  text-align: center;
+}
