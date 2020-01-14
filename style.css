@@ -4,9 +4,14 @@ body{
 h1{
     text-shadow: 2.5px 2.5px rgb(250, 207, 241);
     font-family: 'Dancing Script', cursive;
-    
-    
+    text-align: center;
 }
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 ul{
     list-style-type: none;
     background-color: rgb(250, 207, 241);
@@ -17,7 +22,7 @@ a{
     font-family: 'Open Sans Condensed', sans-serif;
     text-decoration: none;
     color: rgb(64, 64, 64);
-    margin: 125px;
+    margin: 115px;
 }
 li{
     font-family: 'Open Sans Condensed', sans-serif;
@@ -39,12 +44,24 @@ div{
     height:100px;
     margin-bottom: 80px;
     font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+table{
+    margin-left: 400px;
+    margin-right: 150px;
+    
+}
+ol{
+    margin-left: 400px;
+    margin-right: 100px;
 }
 p{
     font-family: 'Open Sans', sans-serif;
     line-height: 30px;
     font-size: 20px;
-    width: 20%;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
 }
 .center {
   display: block;
@@ -52,6 +69,39 @@ p{
   margin-right: auto;
   width: 40%;
 }
-div.a {
+a {
   text-align: center;
+}
+.form-style-1 {
+	margin:10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+	box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
 }
